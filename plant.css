@@ -1,0 +1,61 @@
+
+html, body {
+    font: 1em cursive;
+    box-sizing: border-box;
+    background-color:#ebf9e7;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #3c9023;
+}
+
+#nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ebf9e7;
+    color: #ebf9e7;
+   
+}
+
+img {
+  border: 0px solid #fff;
+  border-radius: 50px;
+  padding: 100px;
+  width: 200px;
+}
+
+<img src="paris.jpg" alt="Paris">
+
+#header-img {
+ 
+}
+
+.email {
+    padding: 2em;
+    width: 90%;
+    border: none;
+}
+
+.videoBox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: var(--pad-top);
+    background-color:#ebf9e7;
+}
+
+@media(max-width: 700px) {
+    .videoBox {
+        flex-wrap: wrap;
+    }
+
+    #video1, #video2 {
+        width: 80%;
+        margin: 0.5em
+    }
+}
